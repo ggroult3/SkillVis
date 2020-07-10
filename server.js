@@ -22,4 +22,4 @@ app.get('/:file',function(req,res){
 
 console.log('\nServer launched !')
 app.listen(PORT)
-console.log("Listening on " + PORT)
+console.log("Listening on localhost:" + PORT)
